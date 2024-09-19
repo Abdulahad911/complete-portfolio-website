@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,55 @@
     <link rel="icon" href="./favicon/professional-portfolio.png">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <header>
+    <nav>
+
+
+        <ul>
+            <li>
+                <h3><span>A</span>bdul <span>A</span>had</h3>
+            </li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Services</a></li>
+            <li class="hideOnMobile"><a href="#">Projects</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+         <div class="blinking">  <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /> 
+                    </svg></a></li></div>
+        </ul>
+        <ul class="sidebar">
+            <li class="menu-close-button" onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+    <section id="services">
+        <h2>Serv<span>i</span>ces</h2>
+        <div>
+        <div class="service-card">
+            <h3>Website Design and Development</h3>
+            <p>Create simple, fully responsive websites using HTML and CSS, tailored to the client's needs.</p>
+        </div>
+        <div class="service-card">
+            <h3>Landing Pages</h3>
+            <p>Design landing pages for businesses, products, or personal portfolios with a focus on layout and responsiveness.</p>
+        </div>
+    </div>
+    </section>
     
     <script src="./script.js"></script>
 </body>
+
 </html>
