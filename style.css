@@ -14,7 +14,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
-    background-color: rgba(31, 30, 30, 0.248);
+    background-color: rgba(31, 30, 30, 0.781);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -172,8 +172,9 @@ header{
   margin-top: 30px;
 }
 .img{
-    height: 40vh;
-    width: 20vw;
+    margin-top: 20px;
+    height: 280px;
+    width: 220px;
     background-color: rgba(31, 30, 30, 0.527);
     border-radius: 7px;
 }
@@ -206,7 +207,7 @@ header{
     }
     
    .blinking{
-    border:1px solid white;
+    border:2px solid white;
     animation: humberger 1s ease infinite;
    
    }
