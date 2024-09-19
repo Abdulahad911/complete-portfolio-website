@@ -155,12 +155,12 @@ header{
     font-size: 3em;
     font-weight:normal;
     text-align: center;
-    /* padding:0px 0 10px 30px ; */
+    
 }
 .service-card p{
     font-size: 2em;
     font-weight:normal;
-    /* text-align: center; */
+   
     padding-left: 100px;
 }
 @media(max-width:800px) {
