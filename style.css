@@ -412,25 +412,28 @@ font-weight: lighter;
 @media(max-width:1020px) {
     .items {
         height: 380px;
-        margin-left: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 20px;
         width: 405px;
     }
 
     .items1 {
         height: 450px;
-        margin-left: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 0px;
         width: 405px;
     }
 
     .box1 img {
         height: 360px;
-        width: 505px;
+        width: 385px;
         margin: 0;
-        margin-left: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 20px;
-        width: 405px;
+        
     }
 
     .box {
@@ -439,8 +442,9 @@ font-weight: lighter;
     }
 
     .box img {
-        width: 405px;
-        margin-left: 30px;
+        width: 385px;
+        margin-left: 20px;
+        margin-right: 20px;
 
     }
 }
