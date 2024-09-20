@@ -322,7 +322,50 @@ header {
 
     text-decoration: underline;
 }
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
 
+.img1{
+    width: 310px;
+    height: 350px;
+    border: 8px solid crimson;
+}
+.img1 img{
+    width: 310px;
+    height: 350px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+.contant{
+    margin-left: 60px;
+    width: 500px;
+}
+.contant h2{
+    font-size: 6em;
+    font-weight: lighter;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.contant span{
+    color: crimson;
+}
+.contant button{
+    border: 2px solid crimson;
+    border-radius: 2px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    width: 230px;
+    height: 40px;
+    transition: background-color 0.5s ease;
+}
+.contant button:hover{
+    background-color: crimson;color: #fff;
+}
 @media(max-width:1020px) {
     .items {
         height: 380px;
