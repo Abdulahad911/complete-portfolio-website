@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 10px;
     font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-nav{
+
+nav {
     background-color: rgba(31, 30, 30, 0.781);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
@@ -21,19 +25,22 @@ nav{
     width: 100%;
     text-transform: uppercase;
     z-index: 1000;
-   
+
 }
-nav ul{
+
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-nav li{
+
+nav li {
     height: 50px;
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -41,30 +48,36 @@ nav a{
     align-items: center;
     color: white;
 }
-nav a:hover{
+
+nav a:hover {
     /* background-color: lightgrey; */
     color: crimson;
 }
-nav ul li{
+
+nav ul li {
     font-size: 1.6rem;
-    
+
 }
-nav li:first-child{
+
+nav li:first-child {
     margin-right: auto;
 }
-nav li h3{
+
+nav li h3 {
     font-size: 3rem;
     padding-top: 3px;
     padding-left: 20px;
-    font-weight:normal;
-    font-family: "Montserrat", sans-serif;color: #fff;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
 }
-nav li h3 span{
+
+nav li h3 span {
     color: crimson;
     font-size: 2.7rem;
 }
 
-.sidebar{
+.sidebar {
     position: fixed;
     top: 0;
     right: 0;
@@ -80,40 +93,47 @@ nav li h3 span{
     justify-content: flex-start;
     backdrop-filter: blur(10px);
 }
-.menu-close-button{
+
+.menu-close-button {
     background-color: #fff;
 }
+
 .sidebar li {
     width: 100%;
-    
+
 }
-.sidebar a{
+
+.sidebar a {
     width: 100%;
 }
-.menu-button{
+
+.menu-button {
     display: none;
 }
 
-.container{
+.container {
     height: 90vh;
     width: 100%;
     border: 2px solid black;
-    padding-top :100px ;
+    padding-top: 100px;
     padding-left: 30px;
 }
-.container h1{
+
+.container h1 {
     font-size: 40px;
-    font-weight:normal;
-    font-family:"Montserrat", sans-serif;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
-.container h3{
+
+.container h3 {
     font-size: 3em;
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: crimson;
-    font-weight:normal;
+    font-weight: normal;
 }
-.container button{
+
+.container button {
     border: 2px solid crimson;
     border-radius: 2px;
     backdrop-filter: blur(10px);
@@ -121,199 +141,260 @@ nav li h3 span{
     width: 160px;
     color: #fff;
     height: 40px;
-    transition:background-color 0.5s ease ;
+    transition: background-color 0.5s ease;
 }
-.container button:hover{
+
+.container button:hover {
     background-color: crimson;
 
 }
-header{
+
+header {
     background-image: linear-gradient(to bottom, rgba(39, 34, 34, 0.395), rgba(41, 38, 38, 0.395)),
         url('./background-img.webp');
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
-#services{
+
+#services {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 0 10px 20px 10px;
 }
-#services h2{
+
+#services h2 {
     font-size: 6em;
-    font-weight:lighter;
-    padding:30px 0 10px 30px ;
+    font-weight: lighter;
+    padding: 30px 0 10px 30px;
 }
-#services span{
-    
+
+#services span {
+
     color: crimson;
 }
-.service-card h3{
+
+.service-card h3 {
     font-size: 3em;
-    font-weight:normal;
+    font-weight: normal;
     text-align: center;
-    
+
 }
-.service-card p{
+
+.service-card p {
     font-size: 2em;
-    font-weight:normal;
-   
+    font-weight: normal;
+
     padding-left: 100px;
 }
-#services-img{
+
+#services-img {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-  margin-top: 30px;
+    margin-top: 30px;
 }
-.img{
+
+.img {
     margin-top: 20px;
     height: 280px;
     width: 250px;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     border-radius: 7px;
 }
-.img img{
+
+.img img {
     mix-blend-mode: multiply;
     margin-top: 40px;
     margin-left: 30px;
-    
+
 }
-.img p{
+
+.img p {
     padding: 8px;
-    margin-left: 7px;font-weight: lighter;color:#fff;
+    margin-left: 7px;
+    font-weight: lighter;
+    color: #fff;
 }
-.img h2{
+
+.img h2 {
     padding: 8px;
     margin-top: 4px;
     margin-left: 7px;
-    color:#fff;
+    color: #fff;
     font-size: large;
 }
-#projects h2{
+
+#projects h2 {
     font-size: 6em;
-    font-weight:lighter;
-    padding:30px 0 10px 30px ;
+    font-weight: lighter;
+    padding: 30px 0 10px 30px;
     text-align: center;
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
-#projects h2 span{
-    
+
+#projects h2 span {
+
     color: crimson;
 }
-.box{
+
+.box {
     display: flex;
     padding: 0 10px;
     flex-wrap: wrap;
 }
-.items{
+
+.items {
     height: 360px;
     width: 505px;
     margin-left: 110px;
     box-shadow: -10px 0 15px grey;
     padding: 20px;
-    background-color: yellow;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: #fff;
 }
-.items span{
+
+.items span {
     font-size: x-large;
 }
-.items p{
+
+.items p {
     font-size: large;
 }
-.box img{
+
+.box img {
     height: 360px;
     width: 505px;
+    transition: transform 0.3s ease-out 0.4s;
 }
-.box1{
+
+.box img:hover {
+    transform: scale(1.04);
+    border-radius: 7px;
+}
+
+.box1 {
     display: flex;
     flex-wrap: wrap;
 }
-.items1{
+
+.items1 {
     height: 360px;
     width: 505px;
     padding: 20px;
-    background-color: yellow;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: #fff;
 }
-.items1 span{
+
+.items1 span {
     font-size: x-large;
 }
-.items1 p{
+
+.items1 p {
     font-size: large;
 }
-.box1 img{
+
+.box1 img {
     height: 360px;
     width: 505px;
     margin: 0 0px 0 120px;
     box-shadow: -10px 0 15px grey;
+    transition: transform 0.4s ease-in 0.3s;
 }
+
+.box1 img:hover {
+    transform: scale(1.04);
+    border-radius: 7px;
+}
+
+#projects a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#projects a:hover {
+    color: crimson;
+
+    text-decoration: underline;
+}
+
 @media(max-width:1020px) {
-    .items{
+    .items {
         height: 380px;
-        margin-left: 0px; 
+        margin-left: 0px;
         margin-top: 20px;
         width: 405px;
     }
-    .items1{
+
+    .items1 {
         height: 450px;
-        margin-left: 0px; 
-margin-top: 0px;
-width: 405px;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 405px;
     }
-    .box1 img{
+
+    .box1 img {
         height: 360px;
         width: 505px;
-        margin: 0 ;
+        margin: 0;
         margin-top: 20px;
         width: 405px;
     }
-    .box{
+
+    .box {
         padding: 0;
-        
+
     }
-    .box img{
+
+    .box img {
         width: 405px;
-        
+
     }
 }
+
 @media(max-width:850px) {
-    .hideOnMobile{
+    .hideOnMobile {
         display: none;
     }
-   
-    .menu-button{
+
+    .menu-button {
         display: block;
         padding: 2px;
-    
+
     }
-    
-   .blinking{
-    border:2px solid white;
-    animation: humberger 1s ease infinite;
-   
-   }
+
+    .blinking {
+        border: 2px solid white;
+        animation: humberger 1s ease infinite;
+
+    }
+
     @keyframes humberger {
-        0%{
-        opacity:1;
-        transform: scale(1);
+        0% {
+            opacity: 1;
+            transform: scale(1);
         }
-        100%{
-        opacity:0;
-        transform: scale(1);
+
+        100% {
+            opacity: 0;
+            transform: scale(1);
         }
     }
 }
+
 @media(max-width:800px) {
-    .sidebar{
+    .sidebar {
         width: 100%;
     }
-    .box{
-       
+
+    .box {
+
         padding: 10px 0;
-        
+
     }
 }
