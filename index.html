@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="icon" href="./favicon/professional-portfolio.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+
+            <ul>
+                <li>
+                    <h3><span>A</span>bdul <span>A</span>had</h3>
+                </li>
+                <li class="hideOnMobile"><a href="#home" >Home</a></li>
+    <li class="hideOnMobile"><a href="#services" >Services</a></li>
+    <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+    <li class="hideOnMobile"><a href="#aboutMe">About</a></li>
+    <li class="hideOnMobile"><a href="#contactInfo">Contact</a></li>
+                <div class="blinking">
+                    <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></li>
+                </div>
+            </ul>
+            <ul class="sidebar">
+                <li class="menu-close-button" onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#aboutMe">About</a></li>
+                <li><a href="#contactInfo">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- <div  id="home" class="container">
+
+            <h1>Hello,</h1><br>
+            <h1>My Name is</h1><br>
+            <h3>Abdul Ahad</h3><br><br>
+            <button>PORTFOLIO</button>
+
+        </div> -->
+        <div id="home" class="container">
+            <h1>
+                Hello,<br>
+                My Name is<br>
+                <span class="animated-letter">A</span><span class="animated-letter">b</span><span class="animated-letter">d</span><span class="animated-letter">u</span><span class="animated-letter">l</span>
+                <br>
+                <span class="animated-letter">A</span><span class="animated-letter">h</span><span class="animated-letter">a</span><span class="animated-letter">d</span>
+            </h1><br>
+            <button>PORTFOLIO</button>
+        </div>
+        
+    </header>
+    <section id="services">
+        <h2>Serv<span>i</span>ces</h2>
+        <div>
+            <div class="service-card">
+                <h3>Website Design and Development</h3>
+                <p>Create simple, fully responsive websites using HTML and CSS, tailored to the client's needs.</p>
+            </div>
+            <div class="service-card">
+                <h3>Landing Pages</h3>
+                <p>Design landing pages for businesses, products, or personal portfolios with a focus on layout and
+                    responsiveness.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services-img">
+        <div class="img"><img src="./services/images.jpg" alt="" height="60px">
+            <h2>WEB DESIGN</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus omnis ducimus repellendus
+                sequi, tempora maxime iste ipsam recusandae cum veniam error quisquam dolore. Voluptatem totam
+                praesentium ullam eos voluptatibus.</p>
+        </div>
+        <div class="img"><img src="./services/images.jpg" alt="" height="60px">
+            <h2>WEB DESIGN</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus omnis ducimus repellendus
+                sequi, tempora maxime iste ipsam recusandae cum veniam error quisquam dolore. Voluptatem totam
+                praesentium ullam eos voluptatibus.</p>
+        </div>
+        <div class="img"><img src="./services/images.jpg" alt="" height="60px">
+            <h2>WEB DESIGN</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus omnis ducimus repellendus
+                sequi, tempora maxime iste ipsam recusandae cum veniam error quisquam dolore. Voluptatem totam
+                praesentium ullam eos voluptatibus.</p>
+        </div>
+        <div class="img"><img src="./services/images.jpg" alt="" height="60px">
+            <h2>WEB DESIGN</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus omnis ducimus repellendus
+                sequi, tempora maxime iste ipsam recusandae cum veniam error quisquam dolore. Voluptatem totam
+                praesentium ullam eos voluptatibus.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>RECENT <span>PROJECTS</span></h2>
+        <div class="box">
+            <div class="items">
+                <p><span>Description:</span> Developed a fully responsive Netflix clone website using HTML and CSS. The
+                    project replicated the visual layout and design of Netflix's homepage, including sections for
+                    trending content and featured movies. Focused on clean UI design, responsive breakpoints, and a
+                    mobile-friendly experience.</p><br>
+                <p><span>Skills Used:</span> HTML, CSS (Flexbox), Responsive Design.</p><br>
+                <p><span>GitHub Link :</span> <a href="https://github.com/Abdulahad911/Netflix-clone.git" target="_blank">Repository link</a><br> <a href="https://abdulahad911.github.io/Netflix-clone/" target="_blank">Deployment link</a></p>
+            </div>
+            <a href="https://abdulahad911.github.io/Netflix-clone/" target="_blank"> <img src="./services/download.png" alt=""></a>
+        </div>
+        <div class="box1">
+            <a href="https://abdulahad911.github.io/task06-html-css-responsive-COFFEE-SHOP-website/?authuser=0" target="_blank"> <img src="./services/coffee.jpg" alt=""></a>
+             <div class="items1">
+                <p><span>Description:</span> Created a responsive website for a fictional coffee shop, showcasing menu
+                    items, business hours, and location. Designed with a focus on an attractive, user-friendly layout
+                    that adapts to all screen sizes. Integrated CSS animations for hover effects and a seamless user
+                    experience across devices.</p><br>
+                <p><span>Skills Used:</span> HTML, CSS (Animations, Flexbox), Responsive Design.</p><br>
+                <p><span>GitHub Link :</span> <a href="https://github.com/Abdulahad911/task06-html-css-responsive-COFFEE-SHOP-website.git?authuser=0" target="_blank">Repository link</a><br> <a href="https://abdulahad911.github.io/task06-html-css-responsive-COFFEE-SHOP-website/?authuser=0" target="_blank">Deployment link</a></p>
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="items">
+                <p><span>Description:</span> Designed and developed a responsive e-commerce website for smartphones and
+                    laptops. The site includes product listings, detailed product pages, and a modern grid layout.
+                    Emphasized creating a smooth navigation experience with a visually appealing, professional design.
+                </p><br>
+                <p><span>Skills Used:</span> HTML, CSS (Flexbox), Responsive Design.</p><br>
+                <p><span>GitHub Link :</span> <a href="https://github.com/Abdulahad911/task05-html-css-responsive-product-catalogue-website.git?authuser=0" target="_blank">Repository link</a><br>
+                <a href="https://abdulahad911.github.io/task05-html-css-responsive-product-catalogue-website/?authuser=0" target="_blank">Deployment link</a></p>
+            </div>
+            <a href="https://abdulahad911.github.io/task05-html-css-responsive-product-catalogue-website/?authuser=0" target="_blank"> <img src="./services/digital.jpg" alt=""></a>
+        </div>
+        <div class="box1">
+            <a href="https://abdulahad911.github.io/task04-html-css-responsive-book-store-website/?authuser=0" target="_blank"> <img src="./services/portfoli2.jpg" alt="">
+            <div class="items1"></a>
+                <p><span>Description:</span> Developed a fully responsive bookshop website featuring a clean, modern design with categories for different genres, a search functionality, and detailed book listings. The website includes sections for featured books, bestsellers, and new arrivals. Focused on user-friendly navigation, ensuring a seamless experience on all devices.</p>
+                <p><span>Skills Used:</span> HTML, CSS (Flexbox) for   Responsive Design.
+                </p>
+                <p><span>GitHub Link :</span> <a href="https://github.com/Abdulahad911/task04-html-css-responsive-book-store-website.git?authuser=0" target="_blank">Repository link</a><br>
+                    <a href="https://abdulahad911.github.io/task04-html-css-responsive-book-store-website/?authuser=0" target="_blank">Deployment link</a></p>
+            </div>
+
+        </div>
+    </section>
+<section id="aboutMe">
+    <div class="image">
+        <div class="img1">
+            <img src="./services/profile-fotor-bg-remover-2024021917200.png" alt="">
+        </div>
+    </div>
+    <div class="contant">
+        <h2>ABOUT <span>ME</span></h2>
+        <h1>Front End Developer</h1>
+        <p>Hi, I'm [Abdul Ahad], a passionate web developer with a strong foundation in HTML, CSS, and basic JavaScript. I specialize in creating visually appealing and fully responsive websites that provide an excellent user experience across all devices. My journey in web development has led me to work on a variety of projects, from cloning popular platforms like Netflix to designing websites for e-commerce and coffee shops.</p>
+        <p>With a focus on clean design and effective functionality, I aim to bring clients' ideas to life through modern, user-friendly websites. I'm constantly learning and improving my skills, and I enjoy solving problems and pushing the limits of web technologies.</p>
+        <p>When I'm not coding, I love exploring new trends in tech and expanding my knowledge in JavaScript and web development. If you're looking for someone who can transform your vision into a beautiful website, let's connect!</p><br><br>
+        <button>DOWNLOAD RESUME</button>
+    </div>
+</section>
+<section id="contactInfo">
+    <h2>CONTACT <span>INFO</span></h2>
+    <div class="container1">
+        <div class="boxes">
+            <img src="./services/contact-information.png" alt="" height="50px">
+           <div class="desc">
+             <h1>Phone</h1>
+             <p>+92 313 9126268</p>
+             <p>+92 340 4463531</p>
+            </div>
+        </div>
+        <div class="boxes">
+            <img src="./services/gmail.png" alt="" height="50px">
+           <div class="desc">
+             <h1>Email</h1>
+             <p>a.a.khan6202@gmail.com</p>
+             
+            </div>
+        </div>
+        <div class="boxes">
+            <img src="./services/location-pin.png" alt="" height="50px">
+           <div class="desc">
+             <h1>Address</h1>
+             <p>Burj Nasir Khan P/O</p>
+             <p>Kafoor Dehri Peshawar</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="./script.js"></script>
+</body>
+<footer>
+    <h3><span>A</span>bdul <span>A</span>had</h3>
+    <p>Your complete Web Solution</p>
+    <div class="ft">
+        <h2>Connect with Us</h2>
+        <!-- facebook -->
+        <div><a href="https://www.facebook.com/profile.php?id=100013248979266&mibextid=ZbWKwL"><img
+                    src="./services/icons8-facebook.gif" alt="" height="50px"></a>
+             <!-- instagram        -->
+            <a href="https://www.instagram.com/_ahad012?igsh=MXB3N3FsdGdoMHY1Mw=="><img src="./services/icons8-instagram.gif"
+                    alt="" height="50px"></a>
+            <a
+                href="https://www.linkedin.com/in/abdul-ahad-39a162223?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQYaCy2uLTTSZtBKrylxdmA%3D%3D"><img
+                    src="./services/icons8-linkedin.gif" alt="" height="50px"></a>
+        </div>
+    </div>
+    <p>Copyright &#169; 2024, Portfolio Website, Abdul Ahad, All Rights Reserved.</p>
+</footer>
+</html>
